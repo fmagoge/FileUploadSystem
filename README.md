@@ -10,7 +10,7 @@ Tech stack:
 - Java 8 (plus)
 - Thymeleaf
 
-##Running the program
+## Running the program
 - run program on default port (8080)
 - Open web on http://localhost:8080/
 - upload a pdf doc 
