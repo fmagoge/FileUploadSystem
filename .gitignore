@@ -34,5 +34,3 @@ replay_pid*
 *.prefs
 *.prefs
 .settings/org.eclipse.jdt.core.prefs
-uploads/ITTPSA Membership Certifcate FMagoge.pdf
-target/classes/META-INF/maven/com.fmagoge/FileUploadSystem/pom.xml
