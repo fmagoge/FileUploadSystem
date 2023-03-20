@@ -1,0 +1,42 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<style>
+.page {
+	max-width: 1000px;
+	margin: auto;
+	padding: 10px;
+	float: center;
+	text-align: center;
+	
+	border: 1px solid gray;
+}
+</style>
+</head>
+<body>
+
+	<div class="page">
+		<div>
+			<h1>File Upload System</h1>
+		</div>
+
+		<div th:if="${message}">
+			<h2 th:text="${message}" />
+		</div>
+
+		<div>
+			<form method="POST" enctype="multipart/form-data" action="/">
+				<table>
+					<tr>
+						<td>File to upload:</td>
+						<td><input type="file" name="file" accept = "application/pdf" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Upload" /></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

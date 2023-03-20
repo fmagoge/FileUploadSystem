@@ -18,7 +18,21 @@
 *.zip
 *.tar.gz
 *.rar
+Debug/
+Release/
+target/
+uploads/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+.classpath
+.classpath
+.classpath
+.factorypath
+.classpath
+*.prefs
+*.prefs
+.settings/org.eclipse.jdt.core.prefs
+uploads/ITTPSA Membership Certifcate FMagoge.pdf
+target/classes/META-INF/maven/com.fmagoge/FileUploadSystem/pom.xml
